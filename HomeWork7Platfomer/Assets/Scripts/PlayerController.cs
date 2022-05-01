@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _speed;
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform _groundChecker;
     [SerializeField] private float _radiusChecker;
     [SerializeField] private LayerMask _whatIsGround;
+
     private int _jumpsValue = 1;
     private float _moveInput;
     private Rigidbody2D _rigidbodyPlayer;

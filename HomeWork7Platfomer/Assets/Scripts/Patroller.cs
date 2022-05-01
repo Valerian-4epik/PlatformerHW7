@@ -6,6 +6,7 @@ using DG.Tweening;
 public class Patroller : MonoBehaviour
 {
     [SerializeField] private float _speed;
+
     private float _stepValue = 3.0f;
 
     private void Start()

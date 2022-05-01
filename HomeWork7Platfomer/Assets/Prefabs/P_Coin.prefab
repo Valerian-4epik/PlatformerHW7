@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ff244d49687c745a9ef35d4de9861f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _reached:
+  _contactWithPlayer:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -6757152048971613602}
