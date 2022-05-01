@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 8234925218985278519}
   - component: {fileID: 1669192151960068037}
   - component: {fileID: 1548137592670884459}
-  - component: {fileID: 1665430704}
+  - component: {fileID: 6177527780118047398}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -183,7 +183,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1665430704
+--- !u!114 &6177527780118047398
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -195,26 +195,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da260cc7778d4344694f9706458b9241, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
-  _jumpForce: 6
-  _groundChecker: {fileID: 1902901611}
-  _radiusChecker: 0.2
+  _speed: 0
+  _jumpForce: 0
+  _groundChecker: {fileID: 0}
+  _radiusChecker: 0
   _whatIsGround:
     serializedVersion: 2
-    m_Bits: 64
-  animator: {fileID: 0}
-  _reached:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -6757152048971613602, guid: cdbedc72059e0e54b8b627113f2c496d, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: fe4d6e3e36748d042bfb6b1c0f4289d1, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+    m_Bits: 0

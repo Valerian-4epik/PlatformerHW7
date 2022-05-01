@@ -1712,6 +1712,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2487381964853974660, guid: 23fd51ce8421008438f65ad5bd648a57, type: 3}
   m_PrefabInstance: {fileID: 1159002804}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1462717741 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1902901611, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
+  m_PrefabInstance: {fileID: 2907636017515449665}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1490908358
 GameObject:
   m_ObjectHideFlags: 0
@@ -3034,7 +3039,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6177527780118047398, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
+      propertyPath: _speed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6177527780118047398, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
+      propertyPath: _jumpForce
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6177527780118047398, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
+      propertyPath: _groundChecker
+      value: 
+      objectReference: {fileID: 1462717741}
+    - target: {fileID: 6177527780118047398, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
+      propertyPath: _radiusChecker
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6177527780118047398, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
+      propertyPath: _whatIsGround.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1665430704, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd20c6f12289bc0469817c45096a2353, type: 3}
 --- !u!1001 &8331997615582876469
 PrefabInstance:
